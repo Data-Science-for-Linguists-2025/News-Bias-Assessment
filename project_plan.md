@@ -20,6 +20,7 @@ I will apply annotated datasets of linguistically-biased language to the news ar
 [Opinosis: A Graph Based Approach to Abstractive Summarization of Highly Redundant Opinions](http://kavita-ganesan.com/opinosis/#.Wmljc6iWYow)
 
 [The Movies Dataset](https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset)
+
 Note: The above dataset contains movie reviews, which are generally considered to be opinions as opposed to facts. Will need to look further into this data to see if it is appropriate for this project.
 
 [Arguments-Fact vs Opinion](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/VYJO3A)
