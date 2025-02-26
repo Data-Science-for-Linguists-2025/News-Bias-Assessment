@@ -19,7 +19,28 @@ Using AllSides as a starting point, I then selected one news source (Vox) that l
 ### Framework for linguistic corpora
 This step has proved to be the most difficult part of my methodology so far. The article [On the subjectivity of intensifiers](https://www.sciencedirect.com/science/article/abs/pii/S0388000107000198) has been a helpful resource in getting started on finding data that is appropriate for the project. Some datasets I found in earlier steps of this project relate only to movie data, or lack a concrete linguistic variable that is operationalized. This article led me to research by Wiebe, Janyce M., Bruce, Rebecca F., & O'Hara, Thomas P. (1999) which studied subjectivity classifications and created a custom dataset that was manually annotated. 
 
-Though the license for usage isn't clear so I will not include the raw data in my repository, I have included a link to it [here](https://people.cs.pitt.edu/~wiebe/pubs/acl99/). Though the format is unfamiliar, I can make a few observations: the data seems to consist of isolated words which are tagged for part of speech, 'nc' which I am not sure about, stem, quote, and cluster. All occurrences are tagged for subjectivity as well. It will take some time to truly understand and work with this data, but it is an extremely promising start.
+Though the license for usage isn't clear, but after a correspondence with Dr. Na-Rae Han, it became clear that this data is both safe to use and commonly used for NLP projects. I have included a link to it [here](https://people.cs.pitt.edu/~wiebe/pubs/acl99/). Though the format is unfamiliar, I can make a few statements about the data based on the README file. First, the data is in the style of SGML markup. It follows the following structure:
+
+format:
+    article start tag
+    paragraph_i start tag
+    sentence_ij start tag
+    clause_ijk start tag with subjectivity annotations (cluster attribute)
+    ...
+
+example:
+
+<TXT art=FEAT docnum=891101-0108 tnum=??>
+<MC  cluster=2 uid=1 soa="other" cmt="rs">
+<wf pos=DT stem=an quote=0>An</wf>
+(Wiebe et. al., 1999)
+
+**Note:** It appears that the 'cluster' argument corresponds to the subjectivity annotation. As stated in the README, "Objective clauses are indicated by the attribute value cluster=1, and subjective clauses are indicated by cluster=2" (Wiebe et. al., 1999).
+
+### Data pipeline for corpus
+1. Assessed and researched style of data (SGML markup) and how to parse using Python. [Documentation for parser here](https://stackless.readthedocs.io/en/2.7-slp/library/sgmllib.html). [More information here](https://book.diveintopython.org/html_processing/introducing_sgmllib.html)
+2. Read in dataset (subjectivity.data) [Reading in .data file tutorial](https://www.geeksforgeeks.org/how-to-read-data-files-in-python/)
+3. Assessed dimensions of dataset
 
 ### Framework for web scraping
 1. [Researched how to scrape multiple articles at once](https://www.geeksforgeeks.org/how-to-scrape-multiple-pages-of-a-website-using-python/)
