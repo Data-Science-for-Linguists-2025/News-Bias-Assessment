@@ -6,7 +6,7 @@ Added necessary files to repository and created project plan. Haven't chosen lic
 ## 2/26/24:
 
 ### Working data pipeline:
-[Pipeline](webscraping-pipeline.ipynb)
+[Pipeline](data-pipeline.ipynb)
 
 ### Sharing plan:
 My plan for sharing my project is to go with the Creative Commons 1.0 license.
@@ -23,5 +23,5 @@ Though the license for usage isn't clear so I will not include the raw data in m
 
 ### Framework for web scraping
 1. [Researched how to scrape multiple articles at once](https://www.geeksforgeeks.org/how-to-scrape-multiple-pages-of-a-website-using-python/)
-2. Attempted to webscrape a single article in [this jupyter notebook](webscraping-pipeline.ipynb)
+2. Attempted to webscrape a single article in [this jupyter notebook](data-pipeline.ipynb)
 3. Planning to scrape 100 articles from each 'side' of the bias spectrum
