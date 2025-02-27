@@ -17,9 +17,9 @@ In order to select proper news sources, I did some research on which sources are
 Using AllSides as a starting point, I then selected one news source (Vox) that leans left according to the chart. In order to remain as unbiased as possible in methodology, I also selected one news source (Fox News) that leans right. 
 
 ### Framework for linguistic corpora
-This step has proved to be the most difficult part of my methodology so far. The article [On the subjectivity of intensifiers](https://www.sciencedirect.com/science/article/abs/pii/S0388000107000198) has been a helpful resource in getting started on finding data that is appropriate for the project. Some datasets I found in earlier steps of this project relate only to movie data, or lack a concrete linguistic variable that is operationalized. This article led me to research by Wiebe, Janyce M., Bruce, Rebecca F., & O'Hara, Thomas P. (1999) which studied subjectivity classifications and created a custom dataset that was manually annotated. 
+This step has proved to be the most difficult part of my methodology so far. The article [On the subjectivity of intensifiers](https://www.sciencedirect.com/science/article/abs/pii/S0388000107000198) has been a helpful resource in getting started on finding data that is appropriate for the project. Some datasets I found in earlier steps of this project relate only to movie data, or lack a concrete linguistic variable that is operationalized. This article led me to research by Wiebe, Janyce M., Bruce, Rebecca F., & O'Hara, Thomas P. (1999) which studied subjectivity classifications and created a custom dataset that was manually annotated.
 
-Though the license for usage isn't clear, but after a correspondence with Dr. Na-Rae Han, it became clear that this data is both safe to use and commonly used for NLP projects. I have included a link to it [here](https://people.cs.pitt.edu/~wiebe/pubs/acl99/). Though the format is unfamiliar, I can make a few statements about the data based on the README file. First, the data is in the style of SGML markup. It follows the following structure:
+Though the license for usage isn't clear, but after a correspondence with a professor, it became clear that this data is both safe to use and commonly used for NLP projects. I attempted to search for a license in the README file and the paper itself but it was not availabe. I have included a link to it [here](https://people.cs.pitt.edu/~wiebe/pubs/acl99/). Though the format is unfamiliar, I can make a few statements about the data based on the README file. First, the data is in the style of SGML markup. It follows the following structure:
 
 format:
     article start tag
@@ -40,7 +40,8 @@ example:
 ### Data pipeline for corpus
 1. Assessed and researched style of data (SGML markup) and how to parse using Python. [Documentation for parser here](https://stackless.readthedocs.io/en/2.7-slp/library/sgmllib.html). [More information here](https://book.diveintopython.org/html_processing/introducing_sgmllib.html)
 2. Read in dataset (subjectivity.data) [Reading in .data file tutorial](https://www.geeksforgeeks.org/how-to-read-data-files-in-python/)
-3. Assessed dimensions of dataset
+3. Assessed dimensions of dataset (813 lines)
+4. **Still working on processing corpus**; it has proved to be a more challenging task than anticipated. I began trying to parse it using BeautifulSoup but was unsuccessful. I will now endeavor to use regex to parse it instead, which will be slightly time-consuming!
 
 ### Framework for web scraping
 1. [Researched how to scrape multiple articles at once](https://www.geeksforgeeks.org/how-to-scrape-multiple-pages-of-a-website-using-python/)
