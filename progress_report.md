@@ -78,4 +78,13 @@ Though I have not successfully scraped the news article data, the sharing scheme
 ### Sharing plan:
 My plan for sharing my project is to go with the Creative Commons 1.0 license. I am comfortable with the use and redistribution of my project materials and do not expect credit. For this reason, after discussing the protocol for the COCA data sharing within this repository and nailing down the amount of data that I will be able to share, it is possible that I will only be able to share portions of the data in order to not breach the academic license that the University of Pittsburgh has for the COCA data.
 
-## 4/1/25 (Progress Report 3)
+## 4/9/25 (Progress Report 3)
+#### Link to guestbook [here](https://github.com/Data-Science-for-Linguists-2025/Class-Lounge/blob/main/guestbooks/claire.md)
+### Data update
+All data used is available in the [data](data.md) file. The data is in the form of 25 Fox News URLs and 25 Vox URLs. The pages associated with these URLs were then scraped by custom-built webscrapers found [here](scraping_scripts.ipynb). The scraped datasets themselves are not available in this repository due to data privacy concerns.
+
+### Analysis update
+Scrapers have been built and all 50 articles have been successfully scraped! I have begun some linguistic analysis on the data, which started with tokenizing the text. I have found article length (in words), itemized word length, average word length, and frequency distribution for every article from both sources. Additionally, I created two lists, one for each news source, that each contain all of the tokenized text from each of the 25 articles per source. I then performed another frequency distribution on each list of tokens.
+
+### Next steps:
+Because I am looking for subjective intensifiers in the form of bigrams, I will next be conducting a bigram analysis for each article. I will then create a list of bigrams for the entire article list. I am doing bigrams first for each article so that one bigram doesn't overlap from one article into the other. I will then search for the subjective intensifier bigrams within the article text after I decide on the list of American English subjective intensifier bigrams (determined by COCA dataset). From here, I will perform more analysis on the frequency of these bigrams in each dataset.
