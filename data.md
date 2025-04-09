@@ -1,6 +1,8 @@
-# Preface: 25 articles were taken directly from the 'Politics' page of each news source. These were not chosen based on any criteria except for their ability to be scraped by the parser I created in [scraping_scripts](scraping_scripts.ipynb). The articles were all taken from the most recent articles of their type (politics).
+# News Source Data
 
-# Fox News URLs
+#### Preface: 25 articles were taken directly from the 'Politics' page of each news source. These were not chosen based on any criteria except for their ability to be scraped by the parser I created in [scraping_scripts](scraping_scripts.ipynb). The articles were all taken from the most recent articles of their type (politics).
+
+### Fox News URLs
 'https://www.foxnews.com/politics/musk-spars-white-house-advisor-peter-navarro-dumber-than-sack-bricks', 
 'https://www.foxnews.com/politics/gabbard-establishes-new-intelligence-community-task-force-restore-transparency', 
 'https://www.foxnews.com/politics/trump-backed-bill-rein-federal-judges-gets-house-wide-vote', 
@@ -28,7 +30,7 @@
 'https://www.foxnews.com/media/usha-vance-reveals-how-switch-flipped-after-husband-joined-trump-ticket-says-maga-has-totally-welcomed-her'
 
 
-# Vox URLs
+### Vox URLs
 'https://www.vox.com/the-logoff-newsletter-trump/407468/trump-tariff-market-crash-economy-recession', 
 'https://www.vox.com/politics/407296/stagflation-trump-tariffs-recession-inflation-risk-odds', 
 'https://www.vox.com/donald-trump/407337/trump-tariffs-risk-split-lose-gop-winning-coalition-majority-disapprove-opinion-latino-black-gen-z', 
