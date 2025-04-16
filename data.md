@@ -1,6 +1,6 @@
 # News Source Data
 
-#### Preface: 25 articles were taken directly from the 'Politics' page of each news source. These were not chosen based on any criteria except for their ability to be scraped by the parser I created in [scraping_scripts](scraping_scripts.ipynb). The articles were all taken from the most recent articles of their type (politics).
+#### Preface: 25 articles were taken directly from the 'Politics' page of each news source. These were not chosen based on any criteria except for their ability to be scraped by the parser I created in [scraping_scripts](scraping_scripts.ipynb). The articles were all taken from the most recent articles of their type (politics). 25 'Opinion' articles were also taken from each of the same sources.
 
 ### Fox News URLs
 'https://www.foxnews.com/politics/musk-spars-white-house-advisor-peter-navarro-dumber-than-sack-bricks', 
@@ -29,6 +29,33 @@
 'https://www.foxnews.com/politics/scoop-treasury-secretary-bessent-huddle-key-republican-caucus-trump-enacts-tariff-plan', 
 'https://www.foxnews.com/media/usha-vance-reveals-how-switch-flipped-after-husband-joined-trump-ticket-says-maga-has-totally-welcomed-her'
 
+### Fox News Opinion URLs
+'https://www.foxnews.com/opinion/why-toxic-masculinity-dangerous-terrible-fraud',
+'https://www.foxnews.com/opinion/david-marcus-democrats-know-judge-shopping-anti-democratic-wrong',
+'https://www.foxnews.com/opinion/morning-glory-how-senate-house-finds-two-trillion-dollars',
+'https://www.foxnews.com/opinion/sen-elizabeth-warren-social-security-under-attack-gutting-broken-promise',
+'https://www.foxnews.com/opinion/liz-peek-cory-bookers-latest-stunt-could-embarrass-democrats',
+'https://www.foxnews.com/opinion/doge-reveals-what-you-get-half-million-youll-pay-in-taxes-over-your-lifetime',
+'https://www.foxnews.com/opinion/victor-davis-hanson-10-tough-trump-tariff-questions-critics-dont-want-answer',
+'https://www.foxnews.com/opinion/democrats-still-havent-learned-one-important-lesson-from-2024-election',
+'https://www.foxnews.com/opinion/sen-maggie-hassan-trump-could-surrendering-one-our-strongest-weapons-fight-against-fentanyl',
+'https://www.foxnews.com/opinion/right-starts-sound-like-left-tariffs-thats-not-america-first',
+'https://www.foxnews.com/opinion/randi-weingarten-trumps-decision-gut-education-department-not-only-illegal-its-wrong',
+'https://www.foxnews.com/opinion/i-own-corvette-dealership-ive-already-seen-benefit-trumps-tariffs',
+'https://www.foxnews.com/world/daughter-german-american-dissident-whose-body-mutilated-iran-calls-trump-nix-nuke-talks',
+'https://www.foxnews.com/opinion/david-marcus-sorry-stephen-a-smith-democrats-dont-let-outsiders-win-primaries',
+'https://www.foxnews.com/opinion/sen-tammy-duckworth-why-trumps-pattern-purging-our-highest-performing-military-officers-dangerous',
+'https://www.foxnews.com/opinion/hope-joy-sorrow-palm-sunday-gift-all-us',
+'https://www.foxnews.com/opinion/david-marcus-sorry-dems-literally-nobody-believes-married-women-cant-get-ids',
+'https://www.foxnews.com/opinion/microdosing-spirituality-how-our-everyday-attachments-connect-us-divine',
+'https://www.foxnews.com/opinion/broadcast-bias-networks-go-full-negative-spin-over-tariff-turbulence-steer-clear-good-economic-news',
+'https://www.foxnews.com/opinion/secretary-rubio-why-making-america-safer-means-revoking-visas-when-threats-arise',
+'https://www.foxnews.com/us/maryland-immigrant-wrongly-deported-to-el-salvador-must-return-to-us-supreme-court-rules',
+'https://www.foxnews.com/opinion/to-perpetuate-faith-there-is-no-place-like-home',
+'https://www.foxnews.com/opinion/trumps-got-iran-cornered-following-reagans-doctrine',
+'https://www.foxnews.com/opinion/jason-chaffetz-democrats-have-made-fatal-error-opposing-doge',
+'https://www.foxnews.com/opinion/anti-american-leftists-could-turn-south-korea-next-venezuela'
+
 
 ### Vox URLs
 'https://www.vox.com/the-logoff-newsletter-trump/407468/trump-tariff-market-crash-economy-recession', 
@@ -56,3 +83,30 @@
 'https://www.vox.com/politics/406606/cory-booker-marathon-speech-filibuster-senate-floor-briefly-explained-protest', 
 'https://www.vox.com/politics/405748/democrats-leader-michelle-obama-savior-sanders-aoc-walz-biden-harris',
 'https://www.vox.com/the-logoff-newsletter-trump/406531/trump-third-presidential-term-constitution-briefly-explained'
+
+### Vox Opinion (The Big Idea) URLs
+'https://www.vox.com/the-big-idea/2018/7/5/17536344/amy-coney-barrett-supreme-court-catholic-dogma',
+'https://www.vox.com/the-big-idea/2018/7/16/17575448/putin-popularity-russia-authoritarian-dissidents-history-mcfaul',
+'https://www.vox.com/the-big-idea/2017/12/21/16805324/black-friday-2018-amazon-online-shopping-cyber-monday-environmental-impact',
+'https://www.vox.com/the-big-idea/2018/11/2/18049510/felon-voting-rights-amendment-4-florida',
+'https://www.vox.com/policy-and-politics/2018/10/31/18047896/trump-supreme-court-birthright-citizenship',
+'https://www.vox.com/the-big-idea/2018/10/11/17964552/nafta-usmca-unions-labor-trump-trade-deals',
+'https://www.vox.com/the-big-idea/2018/9/6/17827786/kavanaugh-vote-supreme-court-packing',
+'https://www.vox.com/the-big-idea/2018/10/2/17925828/what-were-blue-laws-labor-unions',
+'https://www.vox.com/the-big-idea/2017/9/14/16304730/hurricane-2018-florence-destruction-retreat',
+'https://www.vox.com/the-big-idea/2018/9/18/17876024/mcdonalds-strikes-walkout-me-too',
+'https://www.vox.com/2018/8/25/17779422/john-mccain-campaign-finance-legacy',
+'https://www.vox.com/the-big-idea/2018/8/16/17698602/socialism-capitalism-false-dichotomy-kevin-williamson-column-republican-ocasio-cortez',
+'https://www.vox.com/the-big-idea/2018/8/16/17695150/omarosa-nondisclosure-agreements-white-house-secrecy-trump',
+'https://www.vox.com/the-big-idea/2018/8/14/17685988/abolish-ice-dea-immigration-drug-war-failed-policies',
+'https://www.vox.com/the-big-idea/2018/7/31/17632348/wages-lagging-inequality-income-recovery-recession-wage-puzzle-economics',
+'https://www.vox.com/the-big-idea/2018/8/10/17672412/911-police-black-white-racism-sociology',
+'https://www.vox.com/the-big-idea/2018/8/7/17658574/democratic-socialism-cost-medicare-college-sanders-deficits-taxes',
+'https://www.vox.com/the-big-idea/2018/8/6/17655256/hiroshima-anniversary-73-nuclear-weapons-proliferation-arms-control',
+'https://www.vox.com/the-big-idea/2017/10/17/16489526/take-care-clause-obamacare-trump-sabotage-aca-illegal-cities-sue',
+'https://www.vox.com/the-big-idea/2018/8/1/17638706/religious-liberty-sessions-task-force-masterpiece-scalia-constitution',
+'https://www.vox.com/the-big-idea/2018/7/24/17606920/miller-center-uva-trump-staffer-marc-short-resign-leffler-hitchcock-protest-hire-controversy',
+'https://www.vox.com/the-big-idea/2018/7/27/17619750/drug-testing-job-market-marijuana-opioids-cost-benefit',
+'https://www.vox.com/the-big-idea/2018/7/25/17609844/brett-kavanaugh-confirmation-yale-law-school-elites-supreme-court-amar',
+'https://www.vox.com/the-big-idea/2018/7/23/17596430/kavanaugh-kennedy-supreme-court-health-care-aca-confirmation-hearings',
+'https://www.vox.com/the-big-idea/2018/7/17/17578832/teachers-unions-janus-strategy-labor-movement-agency-fees'
