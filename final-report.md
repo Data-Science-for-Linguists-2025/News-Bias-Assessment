@@ -17,6 +17,7 @@ Additionally, I needed a corpus of text that would serve as a 'non-subjective' s
 The data cleaning portion of this project was very straightforward. To begin, I designed the two webscrapers to extract only the data that was relevant for my research project. This eliminated extra data and information that was not necessary. Further, as the BeautifulSoup web scraping process involves the creation of dictionaries, the process of transforming both lists of dictionaries into pandas dataframes was simple. One challenge that arose when initially examining the dataframes was that there were a few extra terms related to encoding such as 'nbsp'. I kept these terms for the majority of my analysis, but removed them, as well as other punctuation symbols to create WordClouds that were meaningful. Additionally, it came to my attention that some additional phrases that were not part of the article text body were scraped as well, including the phrase 'click here'. These were also eliminated prior to my analysis.
 
 ## 4. Analysis
+I began my analysis by first gathering some basic statistics of the news article data.
 
 ## 5. Conclusion
 
