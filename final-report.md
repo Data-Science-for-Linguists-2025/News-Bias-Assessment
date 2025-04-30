@@ -45,19 +45,18 @@ As shown by the figures above, some common unigrams across all 4 corpora include
 The bigram analysis portion of this project along with the conditional frequencies of different bigrams also gives substantial exploratory insight into the content of the corpora and paves the way for an effective bigram analyisis of the subjective intensifier constructions. Though the unigram and bigram analysis are mostly exploratory, they are necessary steps in understanding the data. In the bigram analysis, stopwords and punctuation are maintained. As the word 'trump' was very common in all 4 corpora, a conditional frequency analysis was conducted to retrieve the most common words following 'trump'. The conditional frequency distribution took only the instances of 'trump' with the part-of-speech tag 'NN' (noun) to ensure that these bigrams relate to the U.S. President and not the verb 'trump'. Figures 6, 7, 8, and 9 below demonstrate these conditional frequency distributions.
 
 #### Figure 6
-![Fox News Trump WordCloud](images/fox_wc.png)
+![Fox News Trump WordCloud](images/fox_trump.png)
 
 #### Figure 7
-![Fox News Trump Unigram WordCloud](images/fox_oped_wc.png)
+![Fox News Opinion Trump WordCloud](images/fox_oped_trump.png)
 
 #### Figure 8
-![Vox Trump WordCloud](images/vox_wc.png)
+![Vox Trump WordCloud](images/vox_trump.png)
 
 #### Figure 9
-![Vox Opinion (The Big Idea) Trump WordCloud](images/fox_oped_wc.png)
+![Vox Opinion (The Big Idea) Trump WordCloud](images/vox_oped_trump.png)
 
-
-
+In the above plots, the word 'administration' appears to be a very common word following the word 'trump'. Additionally, words like 'touts', 'hammered', 'publicly', 'unceremoniously' and 'risks' in the Fox News and Fox News Opinion WordClouds suggest a deeper level of subjectivity that goes beyond the scope of subjective intensifiers. The Vox and Vox Opinion (The Big Idea) corpora contain words such as 'hyped', 'denied', 'claims' and 'blamed', which also suggest a deeper level of subjectivity. These words all carry semantic connotations that could be used in future research to investigate subjectivity in a different way. Though the conditional frequency distribution analysis of words following 'trump' is strictly exploratory, it demonstrates that the notion of linguistic subjectivity goes deeper than subjective intensifiers alone.
 
 ## 5. Conclusion
 
