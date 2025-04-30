@@ -8,8 +8,8 @@ Goal: to assess 1) whether there is a statistically significant difference betwe
 Data source: 50 articles from the 'Politics' section of [Fox News](https://www.foxnews.com/politics) (25 standard, 25 opinion), and 50 articles from the 'Politics' section of [Vox](https://www.vox.com/politics) (25 standard, 25 opinion).
 
 ### Directory
-- [final-report.md](final_report.md) : final report and write-up with plots and visualizations
-- [scraping_scripts.ipynb](scraping-scripts.ipynb) : the webscraping scripts I created using BeautifulSoup
+- [final-report.md](final-report.md) : final report and write-up with plots and visualizations
+- [scraping_scripts.ipynb](scraping_scripts.ipynb) : the webscraping scripts I created using BeautifulSoup
 - [data.md](data.md) : links to all 50 news articles from both news sources (Fox News and Vox) and a sample from the Brown corpus
 - [LICENSE.md](LICENSE.md) : license info
 - [News_Subjectivity_Assessment.pdf](News_Subjectivity_Assessment.pdf) : project presentation
