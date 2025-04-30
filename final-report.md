@@ -78,19 +78,24 @@ As shown in the above plots, words such as 'many' and 'much' were common across 
 The next step of the analysis is obtaining frequencies of all subjective intensifier constructions in the 4 news corpora and the Brown corpus. In terms of the frequency of subjective intensifier constructions in the corpora, there were 40 constructions in the Fox News corpus, 11 constructions in the Fox News Opinion Corpus, 48 constructions in the Vox corpus, 70 constructions in the Vox Opinion (The Big Idea) corpus, and 1154 constructions in the Brown corpus. These numbers alone cannot be compared to one another as each corpus was a different size, as shown [here](https://nbviewer.jupyter.org/github/Data-Science-for-Linguists-2025/News-Bias-Assessment/blob/main/data-pipeline.ipynb#Part-2:-Linguistic-analysis-of-data). These values can however, be used to create subjective intensifier to non-subjective intensifier bigram proportions for each of the 5 corpora (including the Brown corpus). These proportions allow for comparison of subjective intensifier frequencies across the corpora. These proportions are calculated in the following section.
 
 ### Final comparison of subjective intensifier data
-The final step in the analysis portion of this project is to compare the subjective intensifier to non-subjective intensifier bigram proportions across the corpora. Two different statistical analyses were conducted to accomplish this task: 1) a proportion comparison(rounded to the 4th decimal place), and 2) proportion z-tests between the Fox News corpus and the Brown corpus, the Vox corpus and the Brown corpus, the Fox Opinion corpus and the Brown corpus, the Vox Opinion (The Big Idea) corpus and the Brown corpus, and finally the Fox News (standard) corpus and the Vox (standard) corpus. The z-test serves as an effective way to measure whether there is a significant difference between two different proportions. For my purposes, I used a series of two-sample proportion z-tests. **Figures 14, 15, 16, and 17 below demonstrate the proportions of subjective intensifier bigrams to non-subjective intensifier bigrams.**
+The final step in the analysis portion of this project is to compare the subjective intensifier to non-subjective intensifier bigram proportions across the corpora. Two different statistical analyses were conducted to accomplish this task: 1) a proportion comparison(rounded to the 4th decimal place), and 2) proportion z-tests between the Fox News corpus and the Brown corpus, the Vox corpus and the Brown corpus, the Fox Opinion corpus and the Brown corpus, the Vox Opinion (The Big Idea) corpus and the Brown corpus, and finally the Fox News (standard) corpus and the Vox (standard) corpus. The z-test serves as an effective way to measure whether there is a significant difference between two different proportions. For my purposes, I used a series of two-sample proportion z-tests. **Figures 14, 15, 16, 17, and 18 below demonstrate the proportions of subjective intensifier bigrams to non-subjective intensifier bigrams.**
 
 #### Figure 14
 ![Fox News SI Proportion](images/fox_pie.png)
 
 #### Figure 15
-![Fox News Opinion SI Proportions](images/fox_oped_pie.png)
+![Fox News Opinion SI Proportion](images/fox_oped_pie.png)
 
 #### Figure 16
-![Vox SI Proportions](images/vox_pie.png)
+![Vox SI Proportion](images/vox_pie.png)
 
 #### Figure 17
-![Vox Opinion (The Big Idea) SI Proportions](images/vox_oped_pie.png)
+![Vox Opinion (The Big Idea) SI Proportion](images/vox_oped_pie.png)
+
+#### Figure 18
+![Brown SI Proportion](images/brown_pie.png)
+
+The above figures show slight differences in the proportions of subjective intensifier bigrams to non-subjective intensifier bigrams. To begin, when comparing 
 
 ## 5. Conclusion
 
