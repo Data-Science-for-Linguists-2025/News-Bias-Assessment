@@ -17,7 +17,14 @@ Additionally, I needed a corpus of text that would serve as a 'non-subjective' s
 The data cleaning portion of this project was very straightforward. To begin, I designed the two webscrapers to extract only the data that was relevant for my research project. This eliminated extra data and information that was not necessary. Further, as the BeautifulSoup web scraping process involves the creation of dictionaries, the process of transforming both lists of dictionaries into pandas dataframes was simple. One challenge that arose when initially examining the dataframes was that there were a few extra terms related to encoding such as 'nbsp'. I kept these terms for the majority of my analysis, but removed them, as well as other punctuation symbols to create WordClouds that were visually meaningful. Additionally, it came to my attention that some additional phrases that were not part of the article text body were scraped as well, including links beginning with 'CLICK HERE'. These were also eliminated prior to my analysis using regex across both the Fox and Fox Opinion dataframes. Eliminating these links ensured that the data used in my project was only article text body data.
 
 ## 4. Analysis
-I began my analysis by first gathering some basic statistics of the news article data.
+The goals of this project are 1) to examine how the frequencies of subjective intensifier constructions in the 'standard' news articles (non-opinion) and a non-news text, and 2) to investigate whether there is a significant difference in the prevalence of subjective intensifiers between the stardard news articles and the opinion articles from the same sources. It is also important to note my use of the term 'un-subjective' text in relation to this project. Here, I use the term 'un-subjective' text to refer to bigrams that are not subjective intensifier constructions. Further, the term 'non-news text' refers to the Brown corpus as mentioned earlier. I began my analysis by first gathering some basic statistics of the news article data. The Fox News corpus contained 20442 tokens, and the Fox News Opinion corpus contained 25385 tokens. The Vox corpus contained 31689 tokens, and the Vox Opinion (The Big Idea) corpus contained 48751 tokens. These values are plotted below in Figure 1. The Fox News 'standard' corpus is slightly smaller than the Vox 'standard' corpus, and the 'opinion' corpora are larger in terms of token count than their 'standard' counterparts.
+
+#### Figure 1
+![Token Frequencies of Fox News and Vox corpora](images/token_freq.png)
+
+
+### Unigram Analysis
+
 
 ## 5. Conclusion
 
