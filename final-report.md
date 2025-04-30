@@ -22,7 +22,7 @@ The goals of this project are 1) to examine how the frequencies of subjective in
 #### Figure 1
 ![Token Frequencies of Fox News and Vox corpora](images/token_freq.png)
 
-#### The analysis portion of this project is divided into 3 parts: unigram analysis, bigram analysis, and a final comparison of subjective intensifier data
+#### The analysis portion of this project is divided into 3 parts: unigram analysis, bigram analysis, subjective intensifer analysis,and a final comparison of subjective intensifier data
 
 ### Unigram Analysis
 When assessing the most common unigrams in each of the corpora, it came as no surprise that stopwords and punctuation symbols are the most common. The Jupyter Notebook section for the unigram distribution is available [here](https://nbviewer.jupyter.org/github/Data-Science-for-Linguists-2025/News-Bias-Assessment/blob/main/data-pipeline.ipynb#Part-3:-Unigram-Analysis). The encoding term 'nbsp' was also a frequent unigram in the Fox News Opinion corpus. The WordClouds below demonstrate the most common unigrams in each corpus. In order to visualize these unigram frequencies in a meaningful way, I removed stopwords and most punctuation symbols in the WordClouds, leaving only words that carry substantial meaning. In further analyses, the stopwords and punctuation are kept. Figures 2, 3, 4, and 5 demonstrate the most common non-punctuation and non-stopword unigrams in each corpus.
@@ -57,6 +57,24 @@ The bigram analysis portion of this project along with the conditional frequenci
 ![Vox Opinion (The Big Idea) Trump WordCloud](images/vox_oped_trump.png)
 
 In the above plots, the word 'administration' appears to be a very common word following the word 'trump'. Additionally, words like 'touts', 'hammered', 'publicly', 'unceremoniously' and 'risks' in the Fox News and Fox News Opinion WordClouds suggest a deeper level of subjectivity that goes beyond the scope of subjective intensifiers. The Vox and Vox Opinion (The Big Idea) corpora contain words such as 'hyped', 'denied', 'claims' and 'blamed', which also suggest a deeper level of subjectivity. These words all carry semantic connotations that could be used in future research to investigate subjectivity in a different way. Though the conditional frequency distribution analysis of words following 'trump' is strictly exploratory, it demonstrates that the notion of linguistic subjectivity goes deeper than subjective intensifiers alone.
+
+### Subjective intensifiers
+As the main research questions of this project relate to subjective intensifier data specifically, it is necessary to analyze the distribution of each of the four subjective intensifiers: 'very', 'so', 'quite', and 'too' in all 4 corpora. This was accomplished by first creating lists of all words following each of 4 subjective intensifiers in all 4 corpora, with the addition of the Brown corpus which stands as the non-news text against which each of the 4 corpora are compared. Following the creation of the lists, conditional frequency distributions were then constructed and plotted. However, s this research project focuses mainly on the raw frequencies of all subjective intensifier constructions, the frequency of each *specific* adjective following each of the 4 subjective intensifiers was not necessary for the final analysis. The frequency distribution was conducted strictly as an exploratory measure. Figures 10, 11, 12, and 13 below demonstrate the frequency distributions of all 4 subjective intensifiers across all 5 corpora including the Brown corpus.
+
+#### Figure 10
+![Fox News SI Bigrams](images/fox_si_bigrams.png)
+
+#### Figure 11
+![Fox News Opinion SI Bigrams](images/fox_oped_si_bigrams.png)
+
+#### Figure 12
+![Vox SI Bigrams](images/vox_si_bigrams.png)
+
+#### Figure 13
+![Vox Opinion (The Big Idea) SI Bigrams](images/vox_oped_si_bigrams.png)
+
+### Final comparison of subjective intensifier data
+
 
 ## 5. Conclusion
 
