@@ -25,7 +25,38 @@ The goals of this project are 1) to examine how the frequencies of subjective in
 #### The analysis portion of this project is divided into 3 parts: unigram analysis, bigram analysis, and a final comparison of subjective intensifier data
 
 ### Unigram Analysis
-When assessing the most common unigrams in each of the corpora, it came as no surprise that stopwords and punctuation symbols are the most common. The Jupyter Notebook section for the unigram distribution is available [here](https://nbviewer.jupyter.org/github/Data-Science-for-Linguists-2025/News-Bias-Assessment/blob/main/data-pipeline.ipynb#Part-3:-Unigram-Analysis). 
+When assessing the most common unigrams in each of the corpora, it came as no surprise that stopwords and punctuation symbols are the most common. The Jupyter Notebook section for the unigram distribution is available [here](https://nbviewer.jupyter.org/github/Data-Science-for-Linguists-2025/News-Bias-Assessment/blob/main/data-pipeline.ipynb#Part-3:-Unigram-Analysis). The encoding term 'nbsp' was also a frequent unigram in the Fox News Opinion corpus. The WordClouds below demonstrate the most common unigrams in each corpus. In order to visualize these unigram frequencies in a meaningful way, I removed stopwords and most punctuation symbols in the WordClouds, leaving only words that carry substantial meaning. In further analyses, the stopwords and punctuation are kept. Figures 2, 3, 4, and 5 demonstrate the most common non-punctuation and non-stopword unigrams in each corpus.
+
+#### Figure 2
+![Fox News Unigram WordCloud](images/fox_wc.png)
+
+#### Figure 3
+![Fox News Opinion Unigram WordCloud](images/fox_oped_wc.png)
+
+#### Figure 4
+![Vox Unigram WordCloud](images/vox_wc.png)
+
+#### Figure 5
+![Vox Opinion (The Big Idea) Unigram WordCloud](images/fox_oped_wc.png)
+
+As shown by the figures above, some common unigrams across all 4 corpora include 'trump' and 'president', though their specific frequencies vary across each corpus. As all 4 corpora are sourced from the 'Politics' section of each news source, these frequent unigrams signal the political nature of each corpus. Additional words with high frequencies are 'fox', 'news', and 'government' in both the Fox News and Fox News Opinion corpora, and 'one' and 'court' in both the Vox and Vox Opinion (The Big Idea) corpora. This step in my analysis proved to be beneficial for this project as it gives contextual insight into the types of bigrams that will be found in the bigram analysis portion of the project.
+
+### Bigram Analysis
+The bigram analysis portion of this project along with the conditional frequencies of different bigrams also gives substantial exploratory insight into the content of the corpora and paves the way for an effective bigram analyisis of the subjective intensifier constructions. Though the unigram and bigram analysis are mostly exploratory, they are necessary steps in understanding the data. In the bigram analysis, stopwords and punctuation are maintained. As the word 'trump' was very common in all 4 corpora, a conditional frequency analysis was conducted to retrieve the most common words following 'trump'. The conditional frequency distribution took only the instances of 'trump' with the part-of-speech tag 'NN' (noun) to ensure that these bigrams relate to the U.S. President and not the verb 'trump'. Figures 6, 7, 8, and 9 below demonstrate these conditional frequency distributions.
+
+#### Figure 6
+![Fox News Trump WordCloud](images/fox_wc.png)
+
+#### Figure 7
+![Fox News Trump Unigram WordCloud](images/fox_oped_wc.png)
+
+#### Figure 8
+![Vox Trump WordCloud](images/vox_wc.png)
+
+#### Figure 9
+![Vox Opinion (The Big Idea) Trump WordCloud](images/fox_oped_wc.png)
+
+
 
 
 ## 5. Conclusion
