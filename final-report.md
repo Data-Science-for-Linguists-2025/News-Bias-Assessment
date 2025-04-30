@@ -95,7 +95,14 @@ The final step in the analysis portion of this project is to compare the subject
 #### Figure 18
 ![Brown SI Proportion](images/brown_pie.png)
 
-The above figures show slight differences in the proportions of subjective intensifier bigrams to non-subjective intensifier bigrams. To begin, when comparing 
+The above figures show slight differences in the proportions of subjective intensifier bigrams to non-subjective intensifier bigrams. To begin, when comparing Fox News to Fox News Opinion, 0.1966% of the Fox News bigrams were subjective intensifiers while 0.0434% of the Fox News Opinion bigrams were subjective intensifiers. This is an interesting result as I hypothesized that the 'opinion' articles would have a higher percentage of subjective intensifiers. Next, when comparing Vox to Vox Opinion (The Big Idea), 0.1514% of the Vox bigrams were subjective intensifiers while 0.1435% of the Vox Opinion (The Big Idea) bigrams were subjective intensifiers. These percentages are quite similar with the opinion articles having a slightly smaller subjective intensifier percentage, which also disproves my initial hypothesis that the 'opinion' articles would have a higher percentage of subjective intensifiers. The percentage of subjective intensifiers in the Brown corpus is 0.0993%, which is among the lowest of subjective intensifier bigram percentages, aside from the Fox News Opinion percentage at 0.0434%. In total, all of the corpora except for Fox News Opinion had a higher percentage of subjective intensifiers than the Brown corpus, which supports the notion that news articles would contain a level of subjectivity that is higher than the level in a non-news corpus.
+
+The two-sample proportion z-tests also support the finding that news articles contain higher frequencies of subjective intensifiers than the Brown corpus. **Figure 19 below demonstrates the two-sample z-test results:**
+
+#### Figure 19
+![z-test results](images/z_test_results.png)
+
+Figure 19 above shows the results of proportion z-tests for every news corpus compared with the Brown corpus and the Fox News corpus compared to the Vox corpus. As shown, there was a statistically significant difference in the proportions of subjective intensifier bigrams to non- subjective intensifier bigrams between each news corpus, both the standard and opinion versions, and the non-news Brown corpus. There was not, however, a statistically significant difference between the proportion of subjective intensifier bigrams to non- subjective intensifier bigrams between the Fox News Corpus and the Vox corpus, even though their respective proportions differ.
 
 ## 5. Conclusion
 
