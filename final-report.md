@@ -22,8 +22,10 @@ The goals of this project are 1) to examine how the frequencies of subjective in
 #### Figure 1
 ![Token Frequencies of Fox News and Vox corpora](images/token_freq.png)
 
+#### The analysis portion of this project is divided into 3 parts: unigram analysis, bigram analysis, and a final comparison of subjective intensifier data
 
 ### Unigram Analysis
+When assessing the most common unigrams in each of the corpora, it came as no surprise that stopwords and punctuation symbols are the most common. The Jupyter Notebook section for the unigram distribution is available [here](https://nbviewer.jupyter.org/github/Data-Science-for-Linguists-2025/News-Bias-Assessment/blob/main/data-pipeline.ipynb#Part-3:-Unigram-Analysis). 
 
 
 ## 5. Conclusion
