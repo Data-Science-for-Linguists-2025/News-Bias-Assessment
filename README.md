@@ -10,7 +10,7 @@ Data source: 50 articles from the 'Politics' section of [Fox News](https://www.f
 ### Directory
 - [final-report.md](final-report.md) : final report and write-up with plots and visualizations
 - [scraping_scripts.ipynb](scraping_scripts.ipynb) : the webscraping scripts I created using BeautifulSoup
-- [data.md](data.md) : links to all 50 news articles from both news sources (Fox News and Vox) and a sample from the Brown corpus
+- [data.md](data.md) : links to all 50 news articles from both news sources (Fox News and Vox) and a sample of 500 tagged words from the Brown corpus
 - [LICENSE.md](LICENSE.md) : license info
 - [News_Subjectivity_Assessment.pdf](News_Subjectivity_Assessment.pdf) : project presentation
 - [progress_report.md](progress_report.md) : incremental updates on project progress with dates
